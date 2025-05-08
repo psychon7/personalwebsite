@@ -1,4 +1,3 @@
-import React, { useState, useEffect } from 'react';
 import { Terminal, Code, Network, Zap, User, Mail, Globe, Phone, FileText, Download, Brain, Rocket, Users, Car, Building2, Headphones } from 'lucide-react';
 import ReactGA from 'react-ga4';
 import './index.css';
