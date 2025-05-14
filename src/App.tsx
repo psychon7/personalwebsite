@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react';
 import { Terminal, Code, Network, Zap, User, Mail, Globe, Phone, FileText, Download, Brain, Rocket, Users, Car, Building2, Headphones } from 'lucide-react';
 import ReactGA from 'react-ga4';
 import './index.css';
@@ -163,18 +164,17 @@ function IntroSection() {
         </div>
         <div className="terminal-body">
           <p className="mb-2"><span className="text-cyan-400">$</span> whoami</p>
-          <p className="mb-4 pl-4">
-          <ul className="list-disc pl-4 space-y-2">
-            <li>CTO at SAFVR, backed by Antler - revolutionizing workplace safety with XR/AI</li>
-            <li>Creative technology generalist & entrepreneur - turning bold ideas into market-disrupting products</li>
-            <li>5+ years leading teams through Web3, VR/AR, and wearable tech frontiers</li>
-            <li>Led products and played pivotal role in raising $1M+ in venture capital</li>
-            <li>Led high-performance teams that ship innovative solutions</li>
-            <li>Technical visionary who bridges cutting-edge tech with business impact</li>
-            <li>Seeking to push boundaries and create revolutionary solutions that matter</li>
-            
-          </ul>
-          </p>
+          <div className="mb-4 pl-4">
+            <ul className="list-disc pl-4 space-y-2">
+              <li>CTO at SAFVR, backed by Antler - revolutionizing workplace safety with XR/AI</li>
+              <li>Creative technology generalist & entrepreneur - turning bold ideas into market-disrupting products</li>
+              <li>5+ years leading teams through Web3, VR/AR, and wearable tech frontiers</li>
+              <li>Led products and played pivotal role in raising $1M+ in venture capital</li>
+              <li>Led high-performance teams that ship innovative solutions</li>
+              <li>Technical visionary who bridges cutting-edge tech with business impact</li>
+              <li>Seeking to push boundaries and create revolutionary solutions that matter</li>
+            </ul>
+          </div>
           {/* <p className="mb-2"><span className="text-cyan-400">$</span> cat skills.txt</p>
           <p className="mb-4 pl-4">React | TypeScript | Node.js | AWS | REST/GraphQL | FastAPI | Python | Firebase | AWS | PostgreSQL | MongoDB | Redis | Docker | Kubernetes | CI/CD | Git | GitHub Actions | Linux | MacOS | Windows</p> */}
           <p><span className="text-cyan-400">$</span> _</p>
