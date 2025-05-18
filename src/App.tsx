@@ -92,7 +92,7 @@ function AboutSection() {
                 <h3 className="text-cyan-400 font-bold">Tech Vision</h3>
               </div>
               <p className="text-sm">
-                Pushing the boundaries to accelerate our evolution from carbon-based consciousness to silicon-based sentience, creating a future where technology helps humans transcends and asscend to a higher state of being.
+              Pushing technology boundaries to enhance human potential, moving from carbon based intelligence toward integrated silicon based intelligence, aiming to create a future where technology supports people in reaching new levels of awareness and capability.
               </p>
             </div>
 
